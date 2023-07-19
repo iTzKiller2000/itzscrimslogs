@@ -24,9 +24,9 @@ try:
         if difffactor >= 3200:
             k = 30
         elif difffactor >= 2400:
-            k = 50
+            k = 100
         elif difffactor < 2399:
-            k = 80
+            k = 160
         change = k * (1 - expected)
         changew = abs(change)
         changel = -abs(change)
